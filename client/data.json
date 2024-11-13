@@ -1,0 +1,55 @@
+[
+  {
+    "batch_name": "Batch_1703240267514",
+    "date": "12/22/2023, 3:47:49 PM",
+    "masterCartonArr": [
+      {
+        "masterCartonNumber": "7278678",
+        "testing": [
+          [
+            {
+              "name": "Mono Carton 1",
+              "imei": "864047060030612",
+              "Box_Item_Check": "ok"
+            },
+            {
+              "name": "Standee Box 1",
+              "imei": "standee_1",
+              "Box_Item_Check": "ok"
+            },
+            {
+              "name": "Standee Box 2",
+              "imei": "standee_2",
+              "Box_Item_Check": "ok"
+            },
+            {
+              "name": "Bopp tape sticked nicely",
+              "Outgoing_Quality_Check_list": "ok",
+              "defect_Category": "1",
+              "Remarks": ""
+            },
+            {
+              "name": "Box condition",
+              "Outgoing_Quality_Check_list": "ok",
+              "defect_Category": "1",
+              "Remarks": ""
+            },
+            {
+              "name": "Box printing",
+              "Outgoing_Quality_Check_list": "ok",
+              "defect_Category": "1",
+              "Remarks": ""
+            },
+            {
+              "name": "Master carton sticker scratches/printing/tear-off/contents",
+              "Outgoing_Quality_Check_list": "ok",
+              "defect_Category": "1",
+              "Remarks": ""
+            }
+          ]
+        ]
+      }
+    ],
+    "line_name": "Line number 4"
+  }
+]

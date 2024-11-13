@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "key": "dashboard",
+    "name": "Dashboard",
+    "icon": {
+      "type": {},
+      "key": null,
+      "ref": null,
+      "props": {
+        "className": "sidebarIcon"
+      },
+      "_owner": null,
+      "_store": {}
+    },
+    "link": "/",
+    "SubMenu": false
+  },
+  {
+    "id": 2,
+    "key": "PostApi",
+    "name": "Show POST Data",
+    "icon": "<ApiOutlined className=\"sidebarIcon\" />",
+    "link": "/PostApi",
+    "SubMenu": false
+  },
+  {
+    "id": 3,
+    "key": "FileUpload",
+    "name": "Upload Files",
+    "icon": "<CloudUploadOutlined className=\"sidebarIcon\" />",
+    "link": "/FileUpload",
+    "SubMenu": false
+  },
+  {
+    "id": 4,
+    "key": "UserAndRole",
+    "name": "User & Role's",
+    "icon": "<UserOutlined className=\"sidebarIcon\" />",
+    "link": "/",
+    "SubMenu": true,
+    "SubMenuItems": [
+      {
+        "id": 5,
+        "key": "ManageUser",
+        "link": "/ManageUser",
+        "name": "User Managemeant"
+      },
+      {
+        "id": 6,
+        "key": "ManageRole",
+        "link": "/ManageRole",
+        "name": "Role Managemeant"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "key": "oqc",
+    "name": "Master Carton",
+    "icon": "<CodepenOutlined className=\"sidebarIcon\" />",
+    "link": "/MasterCartonOQC",
+    "SubMenu": false
+  },
+  {
+    "id": 8,
+    "key": "oqc",
+    "name": "Checked",
+    "icon": " <CheckSquareOutlined className=\"sidebarIcon\" />",
+    "link": "/CheckedOQC",
+    "SubMenu": false
+  },
+  {
+    "id": 10,
+    "key": "oqc",
+    "name": "Review Status",
+    "icon": "<FileDoneOutlined className=\"sidebarIcon\" />",
+    "link": "/ReviewStatusOQC",
+    "SubMenu": false
+  },
+  {
+    "id": 11,
+    "key": "lqc",
+    "name": "Sound Box",
+    "icon": "<CodepenOutlined className=\"sidebarIcon\" />",
+    "link": "/sound_box",
+    "SubMenu": false
+  },
+  {
+    "id": 12,
+    "key": "lqc",
+    "name": "Checked",
+    "icon": "<CheckSquareOutlined className=\"sidebarIcon\" />",
+    "link": "/Check_list",
+    "SubMenu": false
+  },
+  {
+    "id": 13,
+    "key": "lqc",
+    "name": "Review Status",
+    "icon": "<FileDoneOutlined className=\"sidebarIcon\" />",
+    "link": "/lqc_reviewStatus",
+    "SubMenu": false
+  },
+  {
+    "id": 98,
+    "key": "settings",
+    "name": "Settings",
+    "icon": "<SettingOutlined className=\"sidebarIcon\" />",
+    "link": "/settings",
+    "SubMenu": false
+  },
+  {
+    "id": 99,
+    "key": "logout",
+    "name": "Logout",
+    "icon": "<LogoutOutlined className=\"sidebarIcon\" />",
+    "link": "/",
+    "SubMenu": false
+  }
+]
